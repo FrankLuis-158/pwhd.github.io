@@ -90,31 +90,33 @@ body
   border: 1px solid red;
   max-width: 990px;
   margin: auto;
- /* overflow: hidden;
+ /*margin auto; 
+ overflow: hidden;
   padding: 4rem 1rem;*/
   
 }
 
 .tablero_secundario
 {
-  background-color: chartreuse;
+  background-color: crimson;
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*margin: 0 50px;*/
    grid-gap: 20px;
+   
 }
 
 .bloque1
 {
   border: 1px solid aqua;
- 
+  background: rgb(70, 54, 216);
 }
 
 .bloque2
 {
   border: 1px solid aqua;
- 
+  background: rgb(70, 54, 216);
 }
 
 .cuadro1
@@ -137,8 +139,23 @@ body
 {
   border: 1px solid yellow; 
   
-  
 }
+
+
+
+.boton input[type="submit"]
+{
+    border: 1px solid yellow;  
+    outline: none;
+    width: 31%;
+   /* margin: 0 10%;*/
+    background: thistle;
+    color: black;
+    font-size: 18px;
+   /* border-radius: 20px;*/
+}
+
+
 
 .grid-2
 {
@@ -266,7 +283,56 @@ footer p
      padding: 1rem 1rem;
    }
 
+
+   .tablero_principal
+   {
+     border: 1px solid red;
+     max-width: 990px;
+     margin: auto;
+    /*margin auto; 
+    overflow: hidden;
+     padding: 4rem 1rem;*/
+     
+   }
    
+   .tablero_secundario
+   {
+     background-color: crimson;
+     border: 1px solid black;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     /*margin: 0 50px;*/
+      grid-gap: 20px;
+      
+   }
+   
+   .bloque1
+   {
+     border: 1px solid aqua;
+     background: rgb(70, 54, 216);
+   }
+   
+   .bloque2
+   {
+     border: 1px solid aqua;
+     background: rgb(70, 54, 216);
+   }
+   
+
+
+
+
+   .boton input[type="submit"]
+{
+    border: 1px solid yellow;  
+    outline: none;
+    width: 70%;
+   /* margin: 0 10%;*/
+    background: thistle;
+    color: black;
+    font-size: 18px;
+   /* border-radius: 20px;*/
+}
 
 
  }
