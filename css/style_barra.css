@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header
+{
+width: 100%;
+}
+
+header nav
+{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #024959;
+}
+
+
+
+.menu_bar
+{
+    display: none;
+}
