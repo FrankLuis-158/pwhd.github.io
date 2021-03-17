@@ -309,14 +309,14 @@ footer p
     
     .header-content .text
     {
-         margin-top: -10%;
-        }
+         margin-top: 0%;
+    }
 
     .header-content .celular
     {
       /* border: 1px solid black; */
       display: block;
-      margin-top : 15%;
+      margin-top : 4%;
       text-decoration: none;
       color: white;
 
