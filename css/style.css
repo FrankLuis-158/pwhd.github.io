@@ -403,21 +403,18 @@ footer p
   border: 1px solid blue;
   
 } 
+}
 
 
- 
-
- @media(max-width : 500px)
- {
-   /* para esconder el texto */
-    /* .header-content .text
-    {
-     display: none;
-   } */
-
-
-   .header-content
+@media(max-width : 500px)
+{
+  /* para esconder el texto */
+   /* .header-content .text
    {
-     top: 0;
-   }
- }
+    display: none;
+  } */
+  .header-content
+  {
+    top: 0;
+  }
+} 
