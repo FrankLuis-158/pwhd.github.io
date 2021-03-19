@@ -277,7 +277,7 @@ height: 1000px;
         .contenedor
         {
         border: 1px solid red;
-margin: 50px 25px;
+        margin: 50px 25px;
         
 
         height: 1000px;
@@ -340,7 +340,7 @@ margin: 50px 25px;
         .fila2_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
         
         }
 
@@ -381,7 +381,7 @@ margin: 50px 25px;
         .fila3_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
         
         }
 
@@ -423,7 +423,7 @@ margin: 50px 25px;
         .fila4_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
         
         }
 
@@ -464,7 +464,7 @@ margin: 50px 25px;
         .fila5_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
         
         }
 
@@ -505,7 +505,7 @@ margin: 50px 25px;
         .fila6_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
         
         }
 
