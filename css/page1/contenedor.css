@@ -18,9 +18,9 @@ background: rgba(0,0,0,.9);
 
 border: 1px solid red;
 
-margin: 10%;
+margin: 50px;
 
-height: 500px;
+height: 1000px;
 
 }
 
@@ -28,10 +28,9 @@ height: 500px;
 
 .fila1
 {
-    /* border: 1px solid yellow;
-    display: grid; */
-    
-    height: 20%;           
+     border: 1px solid yellow;
+    /* display: grid;  */
+    height: 5cm;           
     display: flex ;
     /* grid-template-columns: 1fr 1fr;      */
      color: white;
@@ -41,26 +40,26 @@ height: 500px;
 .fila1_columna1
 {
     border: 1px solid greenyellow;
-    width: 15%; 
+    width: 14%; 
     
 }
 
 .fila1_columna2
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 36%;
 }
 
 .fila1_columna3
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 25%;
 }
 
 .fila1_columna4
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 25%;
 }
 
 
@@ -72,7 +71,7 @@ height: 500px;
     /* border: 1px solid yellow;
     display: grid; */
     
-    height: 20%;           
+    height: 5cm;           
     display: flex ;
     /* grid-template-columns: 1fr 1fr;      */
      color: white;
@@ -82,24 +81,323 @@ height: 500px;
  .fila2_columna1
 {
     border: 1px solid greenyellow;
-    width: 15%; 
+    width: 14%; 
  
 }
 
 .fila2_columna2
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 36%;
 }
 
 .fila2_columna3
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 25%;
 }
 
 .fila2_columna4
 {
     border: 1px solid blue;
-    width: 50%;
+    width: 25%;
 } 
+
+
+
+
+
+.fila3
+{
+    /* border: 1px solid yellow;
+    display: grid; */
+    
+    height: 6cm;           
+    display: flex ;
+    /* grid-template-columns: 1fr 1fr;      */
+     color: white;
+     text-align: center;       
+}
+
+ .fila3_columna1
+{
+    border: 1px solid greenyellow;
+    width: 14%; 
+ 
+}
+
+.fila3_columna2
+{
+    border: 1px solid blue;
+    width: 36%;
+}
+
+.fila3_columna3
+{
+    border: 1px solid blue;
+    width: 25%;
+}
+
+.fila3_columna4
+{
+    border: 1px solid blue;
+    width: 25%;
+}
+
+
+
+@media(max-width : 560px)
+     {
+        .contenedor
+        {
+        border: 1px solid red;
+
+        margin: 50px;
+
+        height: 1000px;
+        }
+
+
+
+        .fila1
+        {
+            border: 1px solid yellow;
+            /* display: grid;  */
+            height: 150px;           
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila1_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+            
+        }
+
+        .fila1_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila1_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila1_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+
+
+
+
+        .fila2
+        {
+            /* border: 1px solid yellow;
+            display: grid; */
+            
+            height: 150px;         
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila2_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+        
+        }
+
+        .fila2_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila2_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila2_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        } 
+
+
+
+
+
+        .fila3
+        {
+            /* border: 1px solid yellow;
+            display: grid; */
+            
+            height: 150px;           
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila3_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+        
+        }
+
+        .fila3_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila3_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila3_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+
+
+
+        
+
+        .fila4
+        {
+            /* border: 1px solid yellow;
+            display: grid; */
+            
+            height: 150px;           
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila4_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+        
+        }
+
+        .fila4_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila4_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila4_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+
+
+
+
+        .fila5
+        {
+            /* border: 1px solid yellow;
+            display: grid; */
+            
+            height: 150px;           
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila5_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+        
+        }
+
+        .fila5_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila5_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila5_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+
+
+
+
+        .fila6
+        {
+            /* border: 1px solid yellow;
+            display: grid; */
+            
+            height: 150px;           
+            display: flex ;
+            /* grid-template-columns: 1fr 1fr;      */
+            color: white;
+            text-align: center;       
+        }
+
+        .fila6_columna1
+        {
+            border: 1px solid greenyellow;
+            width: 50%; 
+        
+        }
+
+        .fila6_columna2
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila6_columna3
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+
+        .fila6_columna4
+        {
+            border: 1px solid blue;
+            width: 50%;
+        }
+     }
