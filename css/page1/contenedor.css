@@ -148,11 +148,14 @@ height: 1000px;
 
 @media(max-width : 560px)
      {
+
+
+
         .contenedor
         {
         border: 1px solid red;
-
-        margin: 50px;
+margin: 50px 25px;
+        
 
         height: 1000px;
         }
@@ -173,7 +176,7 @@ height: 1000px;
         .fila1_columna1
         {
             border: 1px solid greenyellow;
-            width: 50%; 
+            width: 100%; 
             
         }
 
