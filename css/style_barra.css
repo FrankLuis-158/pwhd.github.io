@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -15,7 +16,7 @@ width: 100%;
 header nav
 {
      /* border:1px solid yellow;  */
-    width: 54%;  /* estaba  en 90%; la barra */
+    width: 90%;  /* estaba  en 90%; la barra */
      max-width: 1000px; 
     margin: 20px auto;
     background: #024959;
@@ -30,46 +31,104 @@ header nav
     display: none;
 }
 
+header nav
+{
+    background: #023859;
+    z-index: 1000;
+    max-width: 1000;
+    width: 95%;
+    margin: 20px auto;
+}
+
 header nav ul
 {
-    overflow: hidden; /* ponde de costado las cajas en la fila y ayuda a ordener para que no se mescle*/
+    /* ponde de costado las cajas en la fila y ayuda a ordener para que no se mescle*/
+    /* overflow: hidden;  */
     list-style: none; /*puntos desaparecen*/
 }
 
-header nav ul li
+header nav ul li 
 {
-    float: left;  /* pone de costado las cajas en fila */
-   
+   display: inline-block; 
+   /* float: left;  pone de costado las cajas en fila */
+   position: relative;
 }
 
-header nav ul li a
+header nav ul li:hover
 {
-    /* border:1px solid blue; */
-    color: #fff;
-    padding: 20px;
+    background: #E6344A;
+}
+
+header nav ul a
+{
+    color: white;
     display: block;
-    text-decoration: none;  
-            
+    text-decoration: none;
+    padding: 20px;
 }
 
 
 
 header nav ul li span
 {
-
-   margin-right: 25px; 
+/* 25 */
+   margin-right: 10px; 
 }
 
 header nav ul li a:hover
 {
+    
 background: #037e8c;
 
 }
 
-section
+
+header nav ul li .children 
 {
-    padding: 10px;
+  background: red;
+  display: none;
+  position: absolute;
+  width: 150%;
+  z-index: 1000;
 }
+
+header nav ul li:hover .children 
+{
+background: blue;
+display: block;
+
+}
+
+header nav ul li .children li
+{
+ display:  block;
+ overflow: hidden;
+ border-bottom: 1px solid white;
+}
+
+header nav ul li .children li a
+{
+   display: block;
+}
+
+header nav ul li .children li a span
+{
+   float: right;
+   position: relative;
+    top: 3px;
+   margin-right: 0;
+   margin-left: 10px; 
+} 
+
+header nav ul li .caret
+{
+   position: relative;
+   top: 3px;
+   margin-left: 10px;
+   margin-right: 0px;
+}
+
+
 
 
 @media screen and (max-width:560px)
@@ -81,9 +140,11 @@ header nav
     max-width: 80%;
    height: 100%;
    left: -100%;
-   margin: 0;
-   position: fixed;
+   
    z-index: 1; 
+   position: fixed;
+   margin: 0;
+   overflow: scroll;
    
 }
 
@@ -94,6 +155,38 @@ float:  none;
 border-bottom: 1px solid rgba(255,255,255, .3);
 
 }
+
+
+header nav ul li a
+{
+display: block;
+}
+
+header nav ul li:hover .children
+{
+    display: none;
+}
+
+
+header nav ul li .children
+{
+    width: 100%;
+    position: relative;
+    
+}
+
+
+header nav ul li .children li a
+{
+margin-left: 20px;
+}
+
+header nav ul li .caret
+{
+float: right;
+
+}
+
 
 
 .menu_bar
@@ -127,8 +220,5 @@ float: right;
 font-size: 40px; 
 
 };
-
-
-
 
 }

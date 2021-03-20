@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?umu7bg');
-  src:  url('fonts/icomoon.eot?umu7bg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?umu7bg') format('truetype'),
-    url('fonts/icomoon.woff?umu7bg') format('woff'),
-    url('fonts/icomoon.svg?umu7bg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?j0lqfs');
+  src:  url('fonts/icomoon.eot?j0lqfs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j0lqfs') format('truetype'),
+    url('fonts/icomoon.woff?j0lqfs') format('woff'),
+    url('fonts/icomoon.svg?j0lqfs#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-keyboard_arrow_down:before {
+  content: "\e900";
+}
 .icon-home3:before {
   content: "\e902";
+}
+.icon-envelop:before {
+  content: "\e945";
 }
 .icon-compass:before {
   content: "\e949";
@@ -34,15 +40,12 @@
 .icon-aid-kit:before {
   content: "\e998";
 }
+.icon-rocket:before {
+  content: "\e9a5";
+}
 .icon-menu:before {
   content: "\e9bd";
 }
 .icon-earth:before {
   content: "\e9ca";
-}
-.icon-cross:before {
-  content: "\ea0f";
-}
-.icon-mail2:before {
-  content: "\ea84";
 }

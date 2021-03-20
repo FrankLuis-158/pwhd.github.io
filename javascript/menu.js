@@ -17,6 +17,15 @@ function main() {
                           }
                   }
                   );
+
+                     //Mostramos y ocultamos menus
+                     $('.submenu').click(function()
+                     {
+                     $(this).children('.children').slideToggle();
+                     }
+                     )
+
+
                }
 
 
@@ -48,4 +57,9 @@ window.onscroll = function()
   
   
     ubicacionPrincipal = Desplazamiento_actual;
+
+
+
+
+
 }

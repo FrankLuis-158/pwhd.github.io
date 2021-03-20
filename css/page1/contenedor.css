@@ -12,13 +12,27 @@ background: rgba(0,0,0,.9);
 }
 
 
+.contenedor_origen
+{
+    border: 0;
+    padding: 0;
+     width: 100%; 
+     height: 250px;
+    overflow: hidden;
+    /* border: 1px solid green; */
+     margin: auto auto; 
+    /* padding:  20px;  */
+    background: red; 
+}
+
 .contenedor
 {
 
 
 border: 1px solid red;
 
-margin: 15% 10%;
+width: 79%;
+margin: 0 auto;
 
 
 height: 1000px;
@@ -43,7 +57,7 @@ height: 1000px;
 .fila1_columna1
 {
     border: 1px solid greenyellow;
-    width: 37%; 
+    width: 60%; 
     
 }
 
@@ -62,22 +76,42 @@ height: 1000px;
 .fila1_columna4
 {
     border: 1px solid blue;
-    width: 100%;
+    width: 40%;
+  
+    /* max-width: 20%; */
     
 }
 
 
-
-
 .numero_tarjeta
-{   margin: 0;
+{  
+    /*  margin: 0;
     top: 0;
     margin-top: 15%;    
     border: 1px solid orange;    
     height: 100%;
     max-height: 30%;          
+    font-size: 50px; */
+    border: 1px solid green;
+    margin: 0%;
+    padding: 0%;
+    
+    width: 100%;
+    margin: auto auto;
+    
+    /* font-size: 50px; */
+    
+    
     text-align: center;
-    font-size: 50px;
+    
+}
+
+.secciones
+{
+    border: 1px solid skyblue;
+    /* margin: 40px auto; */
+    height: 74px;
+
 }
 
 
