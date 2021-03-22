@@ -2,42 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nexia</title>
-<!-- Fontawesome -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ <!-- Fontawesome -->
+ <!-- css de la pagina index grid bloque-->
+ <!-- css de todas las pagina style barra pc y responsive-->
+ <!-- css de etiquetas icono diseño -->
+ 
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ <link rel="stylesheet" href="css/style_index.css">
+ <link rel="stylesheet" href="css/style_barra.css">
+ <link rel="stylesheet" href="css/fonts.css">
 
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <!-- ANIMATE CSS -->
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-  <link rel="stylesheet" href="css/style_barra.css">
-  <link rel="stylesheet" href="css/fonts.css">
 
+<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
+<script src="javascript/jquery-latest.js"></script>
+<script src="javascript/menu.js"></script>
 
   
-
-
-
-
-
-
-
 </head>
 <body>
     
       <!-- Header -->
 
       <header class="header animate__animated animate__flash">
-         
-        
-       
-
-          
           <div class="header-content">
               <img class="logo" src="img/logo.jpg" alt="Fazt logo" height="100px" width="100px">
               <h3 class="title">Nexia</h3>
@@ -57,30 +50,42 @@
                <li> <a href="#"><span class="icon-aid-kit"></span> Trabajo</a> </li>
                
                <li class="submenu" >
-                    <a href="#"><span class="icon-compass"></span> Proyectos <span class="icon-keyboard_arrow_down"></span>  </a> </li>
+                    <a href="#"><span class="icon-compass"></span> Proyectos <span class="icon-keyboard_arrow_down"></span>  </a>
                     <ul class="children">
-                        <li><a href="#">SubElemento #1</a></li>
-                        <li><a href="#">SubElemento #2</a></li>
-                        <li><a href="#">SubElemento #3</a></li>
 
+                        <li><a href="#">Sub #1 <span class="icon-home3"></span></a></li>
+                        <li><a href="#">Sub #2 <span class="icon-home3"></span></a></li>
+                        <li><a href="#">Sub #3 <span class="icon-home3"></span></a></li>
+                        
                     </ul>
                </li>
 
+
+
+
+
+
+
+
+
+
                <li> <a href="#"><span class="icon-earth"></span> Servicios</a> </li>
                <li> <a href="#"><span class="icon-mail2"></span> Contactos</a> </li>
+
+
+
+
+
+
+
+
+
            </ul>
         </nav>
-        
-
-
       </header>
 
       <!-- SERVICES -->
-   
-      
-
-
-     <section class="service text-center">
+      <section class="service text-center">
         <h3 class="title">Service</h3>   
      <div class="container grid-3">
             <div class= "cuadro1">
@@ -104,7 +109,7 @@
 
 
      <section class="tablero_principal">
-        <h3 class="title">Colección de Cartas</h3>   
+        <p class="title_cartas">Colección de Cartas</p>   
      <div class="tablero_secundario">
          <div class="bloque1">
             <img src="img/1.png" alt="Pulsera 1 de Mujer"   height="150px" width="150px";>
@@ -215,8 +220,8 @@
                 <p>Creador : Frank Sifuentes Mendoza </p>
             </footer>
 
-            <script src="javascript/jquery-latest.js"></script>
-            <script src="javascript/menu.js"></script>
+
+    
           
 </body>
 </html>
