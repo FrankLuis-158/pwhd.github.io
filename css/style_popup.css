@@ -84,6 +84,14 @@ background: mediumpurple;
     Este comando centra todo lo que tiene  */
     text-align: justify;
 
+    visibility: hidden;
+     /* ^
+       |
+    Este comando oculta todo el contenedor  */
+}
+
+.overlay.active{
+    visibility: visible
 }
 
 
@@ -91,9 +99,108 @@ background: mediumpurple;
 {
    background: whitesmoke;
    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+   border-radius: 3px;
+   font-family: 'Montserrat' , sans-serif;
+   padding: 20px;
+   text-align: center;
+   width: 600px;
+
+   transition: .3s ease all;
+   transform: scale(0.7);
+opacity: 0;
+/* se agrega despues de haber realizado el java */
+
+
+}
+ 
+.popup .btn-cerrar-popup
+{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: white;
+    transition: .3s ease all;
+
 }
 
+
+.popup .btn-cerrar-popup:hover
+{
+    color: black;
+}
+
+.popup h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.popup h4{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+.popup form .contenedor-inputs{}
+
+.popup form .contenedor-inputs input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.popup form .btn-submit
+{
+padding: 0 20px;
+height: 40px;
+line-height: 40px;
+border: none;
+color: #fff;
+background: #5E7DE3;
+border-radius: 3px;
+font-family: 'Montserrat' ,sans-serif;
+font-size: 16px;
+cursor: pointer;
+transition: .3s ease all;
+}
+
+
+.popup form .btn-submit:hover
+{
+    background: rgba(94, 125, 227, .5);
+}
 
 /* ---------------------*/
 /*ANIMACIONES */
 /* ---------------------*/
+
+.popup.overlay.active
+{
+    opacity: 1;
+    transform: scale(1);
+}
+.popup.overlay.active h3
+{
+    animation: entradaTitulo .8s ease .5s forwards;
+
+    
+}
+
+@keyframes entradaTitulo{
+    form{
+        transform:translate(-25px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+

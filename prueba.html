@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style_popup.css">
     
+    
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 
@@ -24,7 +25,7 @@
 <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
      <script src="javascript/jquery-latest.js"></script>
      <script src="javascript/menu.js"></script>
-
+<script src="javascript/popup.js"></script>
 
 </head>
 <body>
@@ -91,7 +92,7 @@
    
          <article>
  
-            <button class="boton">Abrir imagen</button>
+            <button class="btn-abrir-popup" id="btn-abrir-popup">Abrir Ventana Emergente</button>
             <p>
             What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -111,9 +112,9 @@
         </article>
 
      
-        <div class="overlay">
+        <div class="overlay" id="overlay">
 
-            <div class="popup">
+            <div class="popup" id="popup">
                     <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i> </a>
                     <h3>SUSCRIBETE</h3>
                     <h4>y recibe un cupon de descuento</h4>
