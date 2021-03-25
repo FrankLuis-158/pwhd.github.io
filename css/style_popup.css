@@ -59,7 +59,7 @@ body
 
 .contenedor article .btn-abrir-popup:hover
 {
-background: mediumpurple;
+background: rgb(158, 128, 218);
 }
 
 
@@ -82,7 +82,7 @@ background: mediumpurple;
     /* ^
        |
     Este comando centra todo lo que tiene  */
-    text-align: justify;
+    /* text-align: justify; */
 
     visibility: hidden;
      /* ^
@@ -90,9 +90,9 @@ background: mediumpurple;
     Este comando oculta todo el contenedor  */
 }
 
-.overlay.active{
-    visibility: visible
-}
+ .overlay.active{
+    visibility: visible;
+} 
 
 
 .popup
@@ -107,28 +107,28 @@ background: mediumpurple;
 
    transition: .3s ease all;
    transform: scale(0.7);
-opacity: 0;
+   opacity: 0;
 /* se agrega despues de haber realizado el java */
 
 
 }
- 
+  
 .popup .btn-cerrar-popup
 {
     font-size: 16px;
     line-height: 16px;
     display: block;
     text-align: right;
-    color: white;
+    color: #bbbbbb;
     transition: .3s ease all;
 
 }
-
 
 .popup .btn-cerrar-popup:hover
 {
     color: black;
 }
+
 
 .popup h3{
     font-size: 36px;
@@ -141,10 +141,12 @@ opacity: 0;
     font-size: 26px;
     font-weight: 300;
     margin-bottom: 40px;
+    opacity: 0;
 }
 
-
-.popup form .contenedor-inputs{}
+.popup form .contenedor-inputs{
+    opacity: 0;
+}
 
 .popup form .contenedor-inputs input{
     width: 100%;
@@ -174,33 +176,47 @@ transition: .3s ease all;
 
 .popup form .btn-submit:hover
 {
-    background: rgba(94, 125, 227, .5);
+    background: rgba(94,125,227, .5);
 }
 
 /* ---------------------*/
 /*ANIMACIONES */
 /* ---------------------*/
 
-.popup.overlay.active
-{
-    opacity: 1;
-    transform: scale(1);
-}
-.popup.overlay.active h3
-{
-    animation: entradaTitulo .8s ease .5s forwards;
-
-    
-}
+.popup.active {opacity: 1; transform: scale(1);}
+.popup.active h3 {animation: entradaTitulo .8s ease .5s forwards ;}
+.popup.active h4 {animation: entradaSubTitulo .8s ease .5s forwards ;}
+.popup.active .contenedor-inputs {animation: entradaInputs 1s ease 1s forwards ;}
 
 @keyframes entradaTitulo{
-    form{
-        transform:translate(-25px);
+    from{
+        transform:translateY(-25px);
         opacity: 0;
     }
     to {
-        transform: translate(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
 
+
+@keyframes entradaSubTitulo{
+    from{
+        transform:translateY(25px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+ 
+@keyframes entradaInputs{
+    from{
+       opacity: 0;        
+    }
+    to {
+       
+        opacity: 1;
+    }
+}

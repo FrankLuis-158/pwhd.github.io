@@ -334,7 +334,56 @@ font-size: 18px; */
     width: 100%;    
 } 
 
+.contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup
+{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: whitesmoke;
+    background: mediumpurple;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
 
+
+/* POPUP */
+
+.overlay
+{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    /* ^
+       |
+    Este comando centra todo lo que tiene  */
+    /* text-align: justify; */
+
+    visibility: hidden;
+     /* ^
+       |
+    Este comando oculta todo el contenedor  */
+}
+
+
+/* -------- */
+
+
+.contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup:hover
+{
+    background: rgb(158, 128, 218);
+}
 
 
 @media(max-width : 560px)

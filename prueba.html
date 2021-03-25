@@ -25,7 +25,7 @@
 <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
      <script src="javascript/jquery-latest.js"></script>
      <script src="javascript/menu.js"></script>
-<script src="javascript/popup.js"></script>
+    <script src="javascript/popup.js"></script>
 
 </head>
 <body>
@@ -88,10 +88,9 @@
 
     </header>
 
-    <div class="contenedor">
-   
+    <div class="contenedor">   
          <article>
- 
+            <h1>Ventana Emergente Animada</h1>
             <button class="btn-abrir-popup" id="btn-abrir-popup">Abrir Ventana Emergente</button>
             <p>
             What is Lorem Ipsum?
@@ -111,17 +110,16 @@
         </p>
         </article>
 
-     
         <div class="overlay" id="overlay">
-
             <div class="popup" id="popup">
-                    <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i> </a>
+                    <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
                     <h3>SUSCRIBETE</h3>
                     <h4>y recibe un cupon de descuento</h4>
                     <form action="">
                         <div class="contenedor-inputs">
-                            <input type="text"  placeholder="Nombre" >
-                            <input type="text"  placeholder="Corrreo" >
+                            <input type="text"  placeholder="Nombre">
+                            <input type="email"  placeholder="Corrreo">
+                            <img src="img/1.png" alt="">
                         </div>
                         <input type="submit"  class="btn-submit" value="Suscribirse">
                     </form>
@@ -131,6 +129,6 @@
 
 
      </div>
-
+<script src="javascript/popup.js"></script>
 </body>
 </html>
