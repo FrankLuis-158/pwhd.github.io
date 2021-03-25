@@ -201,44 +201,70 @@
     <div class="overlay" id="overlay">
         <div class="popup" id="popup">
                 <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                <h3>SUSCRIBETE</h3>
-                <h4>y recibe un cupon de descuento</h4>
+                <div class="h3" id="h3">
+                    <h3>SUSCRIBETE</h3>
+                </div>
+                
+                <div class="h4" id="h4">
+                    <h4>y recibe un cupon de descuento</h4>
+                </div>
+                
                 <form action="">
                     <!-- <div class="contenedor-inputs">
                         <input type="text"  placeholder="Nombre">
                         <input type="email"  placeholder="Corrreo">
                         <img src="img/1.png" alt="">
                     </div> -->
-                    <p><iframe class="enlace" id="enlace" width="560" height="315" src="https://www.youtube.com/embed/ngyFW_jBVhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-                    <!-- <input type="submit"  class="btn-submit" value="Suscribirse"> -->
+                   
+                   <iframe  class="video" id="video" width="560" height="315" src="https://www.youtube.com/embed/ngyFW_jBVhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                   
+                  
+                    <input class="desaparecer" id="desaparecer" type="submit"  class="btn-submit" value="Suscribirse">
+
+                    <input class="aparecer" id="aparecer" type="submit"  class="btn-submit" value="apare">
                 </form>
         </div>
 
     </div>
 
 
-    <div class="overlay2" id="overlay2">
-        <div class="popup2" id="popup2">
-            <a href="#"  id="btn-cerrar-popup2" class="btn-cerrar-popup2"><i class="fas fa-times"></i></a>
-            <h3>SUSCRIBETE</h3>
-            <h4>y recibe un cupon de descuento</h4>
-            <form action="">
-                <!-- <div class="contenedor-inputs">
-                    <input type="text"  placeholder="Nombre">
-                    <input type="email"  placeholder="Corrreo">
-                    <img src="img/1.png" alt="">
-                </div> -->
-                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/eQiq9oVloAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-                <!-- <input type="submit"  class="btn-submit" value="Suscribirse"> -->
-            </form>
-        </div>
-    </div>
-<script>
- $('btn-cerrar-popup').click(() =>{
-        $('.enlace').remove('src');
-        });
-</script>
+    <script> 
+        var video = document.getElementById("video"); 
+        
+       
+        
+        function pauseVideo() { 
+            video.pause(); 
+        } 
+        </script>
    
     <script src="javascript/popup.js"></script>
+
+
+
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+    
+    <video id="myVideo" width="320" height="176">
+      <source src="http://www.w3schools.com/tags/mov_bbb.mp4" type="video/mp4">
+      <source src="http://www.w3schools.com/tags/mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <script> 
+    var vid = document.getElementById("myVideo"); 
+    
+    function playVid() { 
+        myVideo.play(); 
+    } 
+    
+    function pauseVid() { 
+        myVideo.pause(); 
+    } 
+    </script> 
+
+
+
+
 </body>
 </html>
