@@ -71,7 +71,7 @@ btnAbrirPopup_2.addEventListener('click',function(){
 btnCerrarPopup_2.addEventListener('click',function(){
     overlay_2.classList.remove('active');
     popup_2.classList.remove('active');
-    document.getElementById('video_2').replaceWith(video);
+    document.getElementById('video_2').replaceWith(video_2);
 });
 
 
