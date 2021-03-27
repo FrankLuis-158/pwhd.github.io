@@ -705,8 +705,8 @@ font-size: 18px; */
 
      @media(max-width : 320px)
      {
-        .popup.active {opacity: 1; transform: scale(0.5);}
-        .popup_2.active {opacity: 1; transform: scale(0.5);}
+        .popup.active {opacity: 1; transform: scale(0.35);}
+        .popup_2.active {opacity: 1; transform: scale(0.35);}
 
         .contenedor_origen
         {
