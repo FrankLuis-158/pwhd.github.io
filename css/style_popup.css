@@ -144,6 +144,13 @@ background: rgb(158, 128, 218);
     opacity: 0;
 }
 
+.popup h5{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
 .popup form .contenedor-inputs{
     opacity: 0;
 }
