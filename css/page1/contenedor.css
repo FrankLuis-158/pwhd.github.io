@@ -559,8 +559,8 @@ font-size: 18px; */
 
 @media(max-width : 560px)
      {
-        .popup.active {opacity: 1; transform: scale(0.8);}
-        .popup_2.active {opacity: 1; transform: scale(0.8);}
+        .popup.active {opacity: 1; transform: scale(0.6);}
+        .popup_2.active {opacity: 1; transform: scale(0.6);}
 
         .contenedor .fila1 .fila1_columna4 .numero_tarjeta .btn-abrir-popup ,.btn-abrir-popup_2
 {
