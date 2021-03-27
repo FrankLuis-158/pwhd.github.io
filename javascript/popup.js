@@ -58,7 +58,8 @@ btnCerrarPopup.addEventListener('click',function(){
 var btnAbrirPopup_2 = document.getElementById('btn-abrir-popup_2'),
 overlay_2 = document.getElementById('overlay_2'),
 popup_2 = document.getElementById('popup_2'),
-btnCerrarPopup_2 = document.getElementById('btn-cerrar-popup_2');
+btnCerrarPopup_2 = document.getElementById('btn-cerrar-popup_2'),
+video_2 = document.getElementById('video_2');
 
 
 
@@ -70,6 +71,7 @@ btnAbrirPopup_2.addEventListener('click',function(){
 btnCerrarPopup_2.addEventListener('click',function(){
     overlay_2.classList.remove('active');
     popup_2.classList.remove('active');
+    document.getElementById('video_2').replaceWith(video);
 });
 
 
