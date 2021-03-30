@@ -11,35 +11,65 @@
  <!-- css de etiquetas icono diseño -->
   
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/style_index.css">  
-    <link rel="stylesheet" href="css/style_barra.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style_popup.css">
+   
+   
     
+ <!-------1--------- agregar Estilo_css al Index --------------------->
+
+ <link rel="stylesheet" href="css/style_index.css">  
+
+ <!--------1--------------------------------------------------------->
+
+
+
+ <!-------2--------- agregar Menu ----------------------------------->
+
+ <link rel="stylesheet" href="css/style_barra.css">
+ <link rel="stylesheet" href="css/fonts.css">
+ <script src="javascript/menu.js"></script>
+ <!-- javascript/jquery-latest.js trabaja con la barra_menu, sirve para escribir codigo jquery -->
+ <script src="javascript/versiones_jquery/jquery-3.6.0.js "></script>  
+
+ <!-------2---------------------------------------------------------->
+
     
- <!---------------- agregar slider banner ---------------------->
+
+
+ <!-------3--------- agregar slider banner -------------------------->
 
 <!-- Css  -->
 <!-- css nuevo -->
 <link rel="stylesheet" href="css/flexslider.css"> 
 <link rel="stylesheet" href="css/font-awesome.css">
 
-
-
 <!-- javascript -->
 <!-- libreria para escribir jquery puro -->
-<script src="javascript/jquery-3.6.0.js"></script>  <!-- 1 Libreria -->
-<script src="javascript/jquery.flexslider.js"></script> <!-- 2 Plugin slider -->
+<!-- javascript/versiones_jquery/jquery-3.6.0.js  trabaja con el slider banner, sirve para escribir codigo jquery -->
+<script src="javascript/versiones_jquery/jquery-3.6.0.js"></script>  <!-- 1 Libreria -->
+<script src="javascript/versiones_flexslider/jquery.flexslider.2.7.2.js"></script> <!-- 2 Plugin slider -->
 <script src="javascript/jquery_slider_banner.js"></script> <!-- 3 Clase programacion  -->
 
+<!--------3--------------------------------------------------------->
 
 
-<!----------------------------------------------------------------->
 
     
+ <!-------4--------- agregar Ventana Popup-Modal ------------------->
+
+ <link rel="stylesheet" href="css/style_popup.css">
+ <script src="javascript/popup.js"></script>
+
+ <!-------4--------------------------------------------------------->
+
+
+
+
+
+
+
      
-    <script src="javascript/menu.js"></script>
-    <script src="javascript/popup.js"></script>
+    
+    
 
 </head>
 <body>
@@ -47,6 +77,9 @@
 
 
     <header>
+
+
+ <!-------2--------- agregar Menu ----------------------------------->
 
         <div class="menu_bar">
             <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
@@ -93,12 +126,16 @@
        </ul>
        </nav>
 
+ <!-------2---------------------------------------------------------->
+
 
     </header>
 
 
 
- <!-- ------flex-------------- -->
+
+ <!-------3--------- agregar slider banner -------------------------->
+
  <h1 id="page-title">Slider Responsive con Flexslider</h1>
  <div class="flexslider">
      <ul class="slides">
@@ -123,7 +160,7 @@
      </ul>
  </div>
 
-<!-- ------------------------------- -->
+<!--------3--------------------------------------------------------->
 
 
 
@@ -151,6 +188,8 @@
         </p>
         </article>
 
+<!-------4--------- agregar Ventana Popup-Modal ------------------->
+
         <div class="overlay" id="overlay">
             <div class="popup" id="popup">
                     <a href="#"  id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
@@ -168,6 +207,7 @@
 
         </div>
 
+ <!-------4--------------------------------------------------------->
 
     </div>
 

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- ANIMATE CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Nexia</title>
  <!-- Fontawesome -->
  <!-- css de la pagina index grid bloque-->
@@ -10,26 +13,49 @@
  <!-- css de etiquetas icono diseño -->
  
  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
- <link rel="stylesheet" href="css/style_index.css">
- <link rel="stylesheet" href="css/style_barra.css">
- <link rel="stylesheet" href="css/fonts.css">
 
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
 
-<!-- ANIMATE CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <!-------2--------- agregar Menu ----------------------------------->
+
+     <link rel="stylesheet" href="css/style_barra.css">
+     <link rel="stylesheet" href="css/fonts.css">
+     <script src="javascript/menu.js"></script>
+     <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
+     <!-- javascript/jquery-latest.js trabaja con la barra_menu, sirve para escribir codigo jquery -->
+     <script src="javascript/versiones_jquery/jquery-3.6.0.js "></script>  
+
+   <!-------2---------------------------------------------------------->
 
 
-<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
-<!-- javascript/jquery-latest.js trabaja con la barra_menu, sirve para escribir codigo jquery -->
-<script src="javascript/jquery-3.6.0.js"></script> 
-<script src="javascript/menu.js"></script>
+<!-------3--------- agregar slider banner -------------------------->
+
+<!-- Css  -->
+<!-- css nuevo -->
+<link rel="stylesheet" href="css/flexslider.css"> 
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- javascript -->
+<!-- libreria para escribir jquery puro -->
+<!-- javascript/versiones_jquery/jquery-3.6.0.js  trabaja con el slider banner, sirve para escribir codigo jquery -->
+<script src="javascript/versiones_jquery/jquery-3.6.0.js"></script>  <!-- 1 Libreria -->
+<script src="javascript/versiones_flexslider/jquery.flexslider.2.7.2.js"></script> <!-- 2 Plugin slider -->
+<script src="javascript/jquery_slider_banner.js"></script> <!-- 3 Clase programacion  -->
+
+<!--------3--------------------------------------------------------->
+
+
+<!-------1--------- agregar Estilo_css al Index --------------------->
+
+<link rel="stylesheet" href="css/style_index.css">  
+
+<!-------1----------------------------------------------------------->
 
   
 </head>
 <body>
     
-      <!-- Header -->
+     
 
       <header class="header animate__animated animate__flash">
           <div class="header-content">
@@ -39,12 +65,12 @@
               <a class="celular" href="tel:+51922289411"> Celular : 922289411 </a>
             </div>
             
+<!-------2--------- agregar Menu ----------------------------------->
+
             <div class="menu_bar">
               <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
-          </div>
-
+            </div>
        
-
           <nav id = "navbar">
             <ul> <!-- https://icomoon.io/app/#/select/font -->
                <li> <a href="#"><span class="icon-home3"></span> Inicio</a> </li>               
@@ -61,29 +87,73 @@
                     </ul>
                </li>
 
-
-
-
-
-
-
-
-
-
                <li> <a href="#"><span class="icon-earth"></span> Servicios</a> </li>
                <li> <a href="#"><span class="icon-mail2"></span> Contactos</a> </li>
 
+            </ul>
+           </nav>
 
+ <!-------2---------------------------------------------------------->
 
-
-
-
-
-
-
-           </ul>
-        </nav>
       </header>
+
+
+
+<!-------3--------- agregar slider banner -------------------------->
+
+<h1 id="page-title">En Memoria de Robert Leiva<span class="icon-tencentqq" ></span></h1>
+<div class="flexslider">
+    <ul class="slides">
+           <li>
+               <img src="img/caballeros_de_oro/logo/logo7.png" alt=""> 
+               <section class="caption">
+                 <!-- <h2>Lorem slider #1</h2> -->
+               </section>
+           </li>
+           <li>
+               <img src="img/caballeros_de_oro/logo/logo8.png" alt="">
+               <section class="caption">
+                 <!-- <h2>Lorem slider #2</h2> -->
+               </section>
+           </li>
+           <li>
+               <img src="img/caballeros_de_oro/logo/logo9.png" alt="">
+               <section class="caption">
+                 <!-- <h2>Lorem slider #3</h2> -->
+               </section>
+           </li>
+           <li>
+            <img src="img/caballeros_de_oro/logo/logo10.png" alt="">
+            <section class="caption">
+              <!-- <h2>Lorem slider #3</h2> -->
+            </section>
+        </li>
+    </ul>
+</div>
+
+<div class="img_fondo_banner">
+ <!-- <img src="img/caballeros_de_oro/logo/logo7.png" alt="" width="100%" >      -->
+</div>
+
+<!--------3--------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <!-- SERVICES -->
       <section class="service text-center">
