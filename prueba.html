@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Menu</title>
     <!-- Fontawesome -->
  <!-- css de la pagina index grid bloque-->
@@ -16,15 +17,28 @@
     <link rel="stylesheet" href="css/style_popup.css">
     
     
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <!---------------- agregar slider banner ---------------------->
+
+<!-- Css  -->
+<!-- css nuevo -->
+<link rel="stylesheet" href="css/flexslider.css"> 
+<link rel="stylesheet" href="css/font-awesome.css">
 
 
 
+<!-- javascript -->
+<!-- libreria para escribir jquery puro -->
+<script src="javascript/jquery-3.6.0.js"></script>  <!-- 1 Libreria -->
+<script src="javascript/jquery.flexslider.js"></script> <!-- 2 Plugin slider -->
+<script src="javascript/jquery_slider_banner.js"></script> <!-- 3 Clase programacion  -->
 
 
-<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>  tambien es valido porque captura ese archivo de la web  -->
-     <script src="javascript/jquery-latest.js"></script>
-     <script src="javascript/menu.js"></script>
+
+<!----------------------------------------------------------------->
+
+    
+     
+    <script src="javascript/menu.js"></script>
     <script src="javascript/popup.js"></script>
 
 </head>
@@ -34,15 +48,9 @@
 
     <header>
 
-
-
-
-
-
-
         <div class="menu_bar">
             <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
-       </div>
+        </div>
        
 
 
@@ -83,10 +91,43 @@
                      }
             </script> -->
        </ul>
-    </nav>
+       </nav>
 
 
     </header>
+
+
+
+ <!-- ------flex-------------- -->
+ <h1 id="page-title">Slider Responsive con Flexslider</h1>
+ <div class="flexslider">
+     <ul class="slides">
+            <li>
+                <img src="img/caballeros_de_oro/logo/logo4.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #1</h2>
+                </section>
+            </li>
+            <li>
+                <img src="img/caballeros_de_oro/logo/logo5.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #2</h2>
+                </section>
+            </li>
+            <li>
+                <img src="img/caballeros_de_oro/logo/logo6.jpg" alt="">
+                <section class="caption">
+                  <h2>Lorem slider #3</h2>
+                </section>
+            </li>
+     </ul>
+ </div>
+
+<!-- ------------------------------- -->
+
+
+
+
 
     <div class="contenedor">   
          <article>
@@ -128,7 +169,13 @@
         </div>
 
 
-     </div>
+    </div>
+
+   
+
+
+
+
 <script src="javascript/popup.js"></script>
 </body>
 </html>
