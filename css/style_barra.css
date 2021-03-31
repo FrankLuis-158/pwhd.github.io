@@ -11,19 +11,8 @@
 .header
 {
 width: 100%;
-}
 
-header nav
-{
-     /* border:1px solid yellow;  */
-    width: 90%;  /* estaba  en 90%; la barra */
-     max-width: 1000px; 
-    margin: 20px auto;
-    background: #024959;
-    
-   
 }
-
 
 
 .menu_bar
@@ -33,11 +22,12 @@ header nav
 
 header nav
 {
+    width: 100%;
+    /* margin: 20px auto; */
     background: #023859;
+
     z-index: 1000;
-    max-width: 1000;
-    width: 95%;
-    margin: 20px auto;
+    border: 1px solid greenyellow;    
 }
 
 header nav ul
@@ -45,6 +35,10 @@ header nav ul
     /* ponde de costado las cajas en la fila y ayuda a ordener para que no se mescle*/
     /* overflow: hidden;  */
     list-style: none; /*puntos desaparecen*/
+    /* display: flex; */
+    /* justify-content: center; */
+    /* cursor: pointer; */
+    text-align: center;       
 }
 
 header nav ul li 
@@ -52,6 +46,10 @@ header nav ul li
    display: inline-block; 
    /* float: left;  pone de costado las cajas en fila */
    position: relative;
+   
+   /* background: chartreuse; */
+   /* text-align: center; */
+   /* justify-content: center; */
 }
 
 header nav ul li:hover
@@ -109,7 +107,10 @@ header nav ul li .children li
 header nav ul li .children li a
 {
    display: block;
+   
 }
+
+
 
 header nav ul li .children li a span
 {
@@ -148,12 +149,25 @@ header nav
    
 }
 
+
+header nav ul
+{
+    /* ponde de costado las cajas en la fila y ayuda a ordener para que no se mescle*/
+    /* overflow: hidden;  */
+    list-style: none; /*puntos desaparecen*/
+    /* display: flex; */
+    /* justify-content: center; */
+    cursor: pointer;
+    
+}
+
 header nav ul li 
 {
 display: block;
 float:  none;
 border-bottom: 1px solid rgba(255,255,255, .3);
-
+background: green;
+text-align: left;
 }
 
 
