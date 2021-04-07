@@ -7,7 +7,6 @@
 
 
 
-
 .header
 {
 width: 100%;
@@ -27,7 +26,7 @@ header nav
     background: #023859;
 
     z-index: 1000;
-    border: 1px solid greenyellow;    
+    /* border: 1px solid greenyellow;     */
 }
 
 header nav ul
