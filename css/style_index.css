@@ -422,6 +422,7 @@ height: 50vh;
 
 .logo
 {
+    margin: 0;
      width: 150px; 
      height: 150px; 
      margin-top: 50px;
@@ -440,11 +441,14 @@ height: 50vh;
 top:  20%;
 margin-top: 70px;
 height: 300px;
+width: 300px;
+/* height: 300vh; */
 }
 
 .header-content .title
 {
- margin-top: -260px; 
+    margin: 0;
+    margin-top: -240px; 
 }
 
 .header-content .title_cartas
@@ -454,21 +458,27 @@ height: 300px;
 
 .header-content .text
 {
+    padding: 0px 0px;
+    /* border: 1px solid red;  */
     background-color: rgba(13, 10, 219, 0.2);
     margin-top: 66%;
     font-size: 15px;
     padding: 0 20px;
+    width: 300px;
+    margin: 0;
+    margin-top: 210px;
 }
 
 .header-content .celular
 {
 /* border: 1px solid black; */
 /* display: block; */
+/* border: 1px solid red;  */
 margin-top : 4%;
 text-decoration: none;
 color: white;
 display: block;
-
+margin: 0;
 }
 
 .grid-3 , .grid-2
@@ -508,7 +518,7 @@ max-width: 960px;
 display: grid;
 grid-template-columns: 1fr 1fr;     
 grid-gap: 10px;
-margin: 0 -6%;
+margin: 0 -2%;
 margin-bottom: 20px;
 }
 
@@ -631,8 +641,25 @@ padding: 2rem 0;
 /* border: 1px solid red;  */
 top:  20%;
 margin-top: 70px;
+width: 300px;
 height: 300px;
 text-align: center;
+/* margin: 0 auto; */
+
+
+
+/* position: absolute; */
+/* z-index: 1; */
+/* top:30%; */
+left: 49%;
+/* margin-top: 205px; */
+margin-left: -145px;
+text-align: center;
+/* width: 350px; */
+/* height: 350px; */
+/* transition: all 1000ms; */
+
+
 }
 
 
@@ -648,15 +675,22 @@ text-align: center;
      -ms-transform: rotate(45deg);
      -o-transform: rotate(45deg);
      transform: rotate(45deg);
-     
+     margin-left: 0px;
 }
 
 
 
 .header-content .title
 {
+    /* border: 1px solid greenyellow; */
+ padding: 0;
+ margin: 0;
+ /* margin-top: 75%; */
     /* margin-top: -280px;  */
- margin-top: -250px; 
+ margin-top: -240px;
+ font-size: 45px;  
+ 
+ /* margin-top: 75%; */
 }
 
 
@@ -668,12 +702,17 @@ text-align: center;
 
 .header-content .text
 {
+    padding: 0;
+    /* border: 1px solid pink;     */
     background-color: rgba(13, 10, 219, 0.2);
     /* margin-top: 71%; */
-    margin-top: 65%;
+    
     font-size: 15px;  
-    width: 100%;
-    margin-left: -30px;
+    /* width: 80%; */
+    
+    margin: auto;
+    margin-top: 73%;
+    /* width: 100px; */
 }
 
 .header-content .celular
@@ -684,9 +723,11 @@ text-align: center;
 text-decoration: none;
 color: white;
 text-align: center;
-display: block;
-
-
+width: 300px;
+/* justify-content: center; */
+/* text-align: center; */
+margin-left: 0px;
+/* display: block; */
 
 }
 
@@ -708,7 +749,7 @@ display: block;
 display: grid;
 grid-template-columns: 1fr 1fr;     
 grid-gap: 10px;
-margin: 0 -7%;
+margin: 0 -2%;
 }
 
 .service
