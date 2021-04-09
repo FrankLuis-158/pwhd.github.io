@@ -321,7 +321,7 @@ border: 1px solid yellow;
 
 .boton input[type="submit"]
 {
-border: 1px solid yellow;  
+/* border: 1px solid yellow;   */
 outline: none;
 /* width: 48%; */
 width: 150px;
@@ -518,7 +518,7 @@ max-width: 960px;
 display: grid;
 grid-template-columns: 1fr 1fr;     
 grid-gap: 10px;
-margin: 0 -2%;
+margin: 0 -4%;
 margin-bottom: 20px;
 }
 
@@ -537,7 +537,7 @@ background: rgb(70, 54, 216);
 
 .boton input[type="submit"]
 {
-border: 1px solid yellow;  
+/* border: 1px solid yellow;   */
 outline: none;
 /* width: 100%; */
 width: 150px;

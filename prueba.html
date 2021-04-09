@@ -12,7 +12,7 @@
   
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
    
-   
+    
     
  <!-------1--------- agregar Estilo_css al Index --------------------->
 
@@ -72,9 +72,13 @@
 <!-------5--------------------------------------------------------->
 
 
-     
+     <!--cubo giratorio  -->
+     <link rel="stylesheet" href="css/style_cubo_giratorio.css">
+    <!--  -->
+    <script src="javascript/jquery_cubo_giratorio.js"></script>
     
-    
+
+
 
 </head>
 <body>
@@ -247,7 +251,53 @@
     
      <!-------5--------------------------------------------------------->
 
+<!-------6--------- cubo giratorio ------------------->
 
+<div class="card">
+    <div class= "front active">
+        <div class="location">New Delhi</div>
+        <div class="more"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+        <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <h1>8<sup>o</sup><br><span>Today</span></h1>
+        </div>  
+        <ul class="forecast">
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-cloud" aria-hidden="true"></i> 9<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-tint" aria-hidden="true"></i> 6<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-snowflake" aria-hidden="true"></i> 2<sup>o</sup></div>
+            </li>
+        </ul>      
+    </div>       
+    
+    <div class="back">
+        <div class="go-back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>                     
+        <ul class="forecast">
+            <li>
+                <div class="day">Yesterday</div>
+                <div class="temprature"><i class="fa fa-cloud" aria-hidden="true"></i> 3<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Today</div>
+                <div class="temprature"><i class="fa fa-tint" aria-hidden="true"></i> 6<sup>o</sup></div>
+            </li>
+            <li>
+                <div class="day">Sunday</div>
+                <div class="temprature"><i class="fa fa-snowflake" aria-hidden="true"></i> 2<sup>o</sup></div>
+            </li>
+        </ul> 
+    </div>       
+</div>
+
+
+ <!-------6--------------------------------------------------------->
 
 
 <script src="javascript/popup.js"></script>
