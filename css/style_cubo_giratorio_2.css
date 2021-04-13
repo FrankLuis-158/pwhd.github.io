@@ -45,7 +45,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -125,7 +126,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -203,7 +205,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -282,7 +285,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -360,7 +364,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -437,7 +442,8 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 300px;
+    /* 283 */
     padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
@@ -474,6 +480,83 @@ body
 
 
 
+/* ----------------7 Cubo Gitatorio "Genshi"---------------- */
+
+
+.card_7
+{  
+    transform: translate(0%,0%);
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.card_7 .front_7
+{
+    width: 100%;
+    height: 100%;
+    background: #2196f3;    
+    box-sizing: border-box;
+    transition: .5s;
+    transform-origin: right;
+}
+
+.more_7
+{    
+    width: 100%;    
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    color: #fff;  
+    display: block;
+    background:teal    
+}
+
+.card_7 .back_7
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* 283 */
+    /* padding: 30px; */
+    padding: 0px;
+    background: #ff2877;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: translateX(100%) rotateY(90deg);
+}
+
+.card_7 .back_7.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_7 .front_7.active
+{
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card_7 .front_7
+{
+    transform: translateX(-100%) rotateY(90deg);
+}
+
+
+.go-back_7
+{
+    font-size: 24px;
+    color: #FFF;
+    text-align: right;
+    cursor: pointer;
+} 
+
+/* ----------------7 Cubo Gitatorio "Genshi"---------------- */
+
 
 
 @media(max-width : 560px)
@@ -483,7 +566,8 @@ body
     .card_3,
     .card_4,
     .card_5,
-    .card_6
+    .card_6,
+    .card_7
 {  
     transform: translate(0%,0%);
     width: 100%;
@@ -497,7 +581,8 @@ body
     .card_3 .front_3,
     .card_4 .front_4,
     .card_5 .front_5,
-    .card_6 .front_6
+    .card_6 .front_6,
+    .card_7 .front_7
 {
     width: 150px;
     height: 100%;           
@@ -516,7 +601,8 @@ body
 .more_3,
 .more_4,
 .more_5,
-.more_6 
+.more_6,
+.more_7
 {    
     width: 100%;     
     text-align: center;
@@ -536,7 +622,8 @@ body
 .card_3 .back_3,
 .card_4 .back_4,
 .card_5 .back_5,
-.card_6 .back_6 
+.card_6 .back_6,
+.card_7 .back_7 
 {
     /* position: absolute; */
     /* top: 0; */

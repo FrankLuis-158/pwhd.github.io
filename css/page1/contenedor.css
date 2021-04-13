@@ -18,18 +18,19 @@ background: rgba(0,0,0,.9);
     padding: 0;
      width: 100%; 
      max-width: 100%;
-     height: 250px;
+     height: 325px;
     overflow: hidden;
     /* border: 1px solid green; */
      margin: auto auto; 
     /* padding:  20px;  */
     background: red; 
+    background-size: cover;
 }
 
 .contenedor
 {
 
-border: 1px solid red;
+/* border: 1px solid red; */
 width: 70%;
 margin: 0 auto;
 /* height: 1000px; */
@@ -40,7 +41,7 @@ margin: 0 auto;
 .fila1
 {
     
-     border: 1px solid yellow;
+     /* border: 1px solid yellow; */
     /* display: grid;  */
     height: 9cm;
     display: flex ;
@@ -53,21 +54,21 @@ margin: 0 auto;
 
 .fila1_columna1
 {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     width: 35%; 
     
 }
 
 .fila1_columna2
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 35%;
     
 }
 
 .fila1_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: justify;
     overflow: scroll;
@@ -75,7 +76,7 @@ margin: 0 auto;
 
         .fila1_columna4
         {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 40%;
         font-size: 24px;
             /* max-width: 20%; */
@@ -89,7 +90,8 @@ margin: 0 auto;
 
                 
                 
-                    background: hotpink;
+                    /* background: hotpink; */
+                    background: teal;
                 }
 
                         .secciones
@@ -121,14 +123,14 @@ margin: 0 auto;
 
 .fila2_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     overflow: scroll;
 }
 
 .fila2_columna4
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 } 
 
@@ -151,7 +153,7 @@ margin: 0 auto;
 
 .fila3_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: justify;
     overflow: scroll;
@@ -159,7 +161,7 @@ margin: 0 auto;
 
 .fila3_columna4
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 }
 
@@ -182,13 +184,13 @@ margin: 0 auto;
 
 .fila4_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 }
 
 .fila4_columna4
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 } 
 
@@ -212,13 +214,13 @@ margin: 0 auto;
 
 .fila5_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 }
 
 .fila5_columna4
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 } 
 
@@ -242,13 +244,13 @@ margin: 0 auto;
 
 .fila6_columna3
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 }
 
 .fila6_columna4
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;    
 } 
 
@@ -259,18 +261,20 @@ margin: 0 auto;
     /* margin-bottom: 20px; */
     /* height: 40px; */
     height: 100%;
-    max-height: 75px;
+    max-height: 135px;
     width: 100%;
     /* line-height: 40px; */
     border: none;
     color: whitesmoke;
     background: mediumpurple;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     cursor: pointer;
     transition: .3s ease all;
     cursor: pointer;
+    border: 1px solid black;
+    
 }
 
 
@@ -284,17 +288,18 @@ margin: 0 auto;
             border: 0;
             padding: 0;
              width: 100%; 
-             height: 250px;
+             height: 180px;
             overflow: hidden;
             /* border: 1px solid green; */
              margin: auto auto; 
             /* padding:  20px;  */
             background: red; 
+            background-size: cover;
         }
 
         .contenedor
         {                
-        border: 1px solid red;
+        /* border: 1px solid red; */
         
         width: 100%;
         max-width: 100%;
@@ -313,7 +318,7 @@ margin: 0 auto;
         .fila1
         {
             
-             border: 1px solid yellow;
+             /* border: 1px solid yellow; */
             /* display: grid;  */
             height: 5cm;           
             display: flex ;
@@ -324,7 +329,7 @@ margin: 0 auto;
         
         .fila1_columna1
         {
-            border: 1px solid greenyellow;
+            /* border: 1px solid greenyellow; */
             width: 500px; 
             
             
@@ -332,14 +337,14 @@ margin: 0 auto;
 
         .fila1_columna2
         {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 500px;
             
         }
 
         .fila1_columna4
         {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 40%;
             font-size: 18px;
             /* max-width: 20%; */
@@ -361,14 +366,14 @@ margin: 0 auto;
         {
             height: 100%;
             max-height: 24%;
-            border: 1px solid black;
+            /* border: 1px solid black; */
             padding-top: 20px;
             /* padding-bottom: 15px; */
                    
             /* border-bottom: 1px solid blue; */
         }
         
-     
+       
 
 
 
@@ -392,12 +397,13 @@ margin: 0 auto;
              margin: auto auto; 
             /* padding:  20px;  */
             background: red; 
+            background-size: cover;
         }
 
        
         .fila1_columna1
         {
-            border: 1px solid greenyellow;
+            /* border: 1px solid greenyellow; */
             width: 500px; 
             
             
@@ -405,7 +411,7 @@ margin: 0 auto;
 
         .fila1_columna2
         {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 500px;
             
         }
@@ -420,7 +426,7 @@ margin: 0 auto;
 
         .fila1_columna4
         {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 40%;
             font-size: 18px;
             /* max-width: 20%; */
