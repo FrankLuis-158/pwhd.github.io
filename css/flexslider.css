@@ -68,7 +68,13 @@ body
      height: 501px;
      margin-top: -551px; 
      overflow: hidden;
-     background: #f3f3f3 
+     /* background: #023859;      */
+     background: url(/img/parallax/fondo_parallax_1.gif);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+
      /* border-radius: 10px; */
      
 }
@@ -286,18 +292,24 @@ caption h2{
 
 .img_fondo_banner
 {
-    width: 95%;
+     width: 95%;
      width: 100%;
      margin: 0 auto;
-     background: #f3f3f3;
+     background: url(/img/parallax/fondo_parallax_4.gif);
      height: 100%;
      height: 251px;
      margin-top: -301px; 
      overflow: hidden;
-     /* background: red;    */
-     /* border-radius: 10px; */
-     
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: -95px ;
+     /* display: none; */
+     /* background: #f3f3f3;                     */
 }
+
+
+
+
 
 
 /* esto es para el tamaño de la imagen del banner */

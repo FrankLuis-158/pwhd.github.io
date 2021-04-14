@@ -18,7 +18,7 @@ body
 
 .card .front
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -100,7 +100,7 @@ body
 
 .card_2 .front_2
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -179,7 +179,7 @@ body
 
 .card_3 .front_3
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -259,7 +259,7 @@ body
 
 .card_4 .front_4
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -338,7 +338,7 @@ body
 
 .card_5 .front_5
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -416,7 +416,7 @@ body
 
 .card_6 .front_6
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -494,7 +494,7 @@ body
 
 .card_7 .front_7
 {
-    width: 100%;
+    width: 99.7%;
     height: 100%;
     background: #2196f3;    
     box-sizing: border-box;
@@ -646,6 +646,7 @@ body
 {
     padding: 0 15px;
     text-align: justify;
+    font-size: 14px;
     
     
 }

@@ -300,13 +300,15 @@ margin-bottom: 20px;
 .bloque1
 {
 /* border: 1px solid aqua; */
-background: rgb(70, 54, 216);
+/* background: rgb(70, 54, 216); */
+background: #023859;
 }
 
 .bloque2
 {
 /* border: 1px solid aqua; */
-background: rgb(70, 54, 216);
+/* background: rgb(70, 54, 216); */
+background: #023859;
 }
 
 
@@ -526,13 +528,15 @@ margin-bottom: 20px;
 {
 /* margin: 0 -20px; */
 /* border: 2px solid orange; */
-background: rgb(70, 54, 216);
+/* background: rgb(70, 54, 216); */
+background: #023859;;
 }
 
 .bloque2
 {
 /* border: 2px solid aqua; */
-background: rgb(70, 54, 216);
+/* background: rgb(70, 54, 216); */
+background: #023859;;
 }
 
 .boton input[type="submit"]
