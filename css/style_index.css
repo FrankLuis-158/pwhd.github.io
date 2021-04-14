@@ -380,7 +380,21 @@ footer p
 margin: 0;
 }
 
+.imagen_donacion
+{
+margin: auto;
+}
 
+.imagen_donacion
+{   
+    /* margin: 0 auto; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

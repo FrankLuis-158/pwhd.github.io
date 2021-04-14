@@ -69,7 +69,7 @@ body
      margin-top: -551px; 
      overflow: hidden;
      /* background: #023859;      */
-     background: url(/img/parallax/fondo_parallax_1.gif);
+     background: url(/img/parallax/fondo_parallax_11.gif);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -302,7 +302,11 @@ caption h2{
      overflow: hidden;
      background-attachment: fixed;
      background-size: cover;
-     background-position: -95px ;
+     /* display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center; */
+     background-position: -85px ;
      /* display: none; */
      /* background: #f3f3f3;                     */
 }

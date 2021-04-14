@@ -23,8 +23,9 @@ function myFunction(x) {
         function changeBg()
         {
             const images = [
-                'url("img/parallax/fondo_parallax_2.gif")',
-                'url("img/parallax/fondo_parallax_3.gif")',
+                'url("img/parallax/fondo_parallax_6.gif")',
+                'url("img/parallax/fondo_parallax_5.gif")',
+                'url("img/parallax/fondo_parallax_10.gif")',
             ]
             const img_fondo_banner = document.getElementById ('img_fondo_banner')
             const bg = images[Math.floor(Math.random() * 
