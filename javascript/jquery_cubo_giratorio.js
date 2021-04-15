@@ -72,3 +72,14 @@ $('.go-back_6').click(function(){
     $('.front_6').addClass('active')
 })
 })
+
+$(document).ready(function(){
+    $('.more_7').click(function(){
+    $('.back_7').addClass('active')
+    $('.front_7').removeClass('active')
+})
+$('.go-back_7').click(function(){
+    $('.back_7').removeClass('active')
+    $('.front_7').addClass('active')
+})
+})
