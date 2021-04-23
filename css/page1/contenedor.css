@@ -374,11 +374,26 @@ margin: 0 auto;
         }
         
        
-
+       
 
 
 
      }
+
+
+
+     @media(max-width:350px)
+{
+    .fila1_columna3
+    {
+        /* border: 1px solid blue;
+        width: 500px; */
+        display: none;
+        
+    }
+}
+
+     
 
 
 
