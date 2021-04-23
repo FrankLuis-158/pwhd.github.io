@@ -81,7 +81,7 @@
 
 
 </head>
-<body>
+<body >
   
 
 
@@ -303,15 +303,17 @@
 <script src="javascript/popup.js"></script>
 
 
-
-<div class="card_50">
+<!---------------------- tarjeta de presentacion  ------------>
+<div id="play" class="card_50">
     <div class="imgBox">
         <img src="/img/tarjeta_presentacion/tarjeta_presentacion1.gif" alt="">
         <img src="/img/tarjeta_presentacion/tarjeta_presentacion2.jpg" alt="">
     </div>    
-    <div class="details">
+    <div  class="details">
         <div class="content">
+           
             <h2>Frank S. M.<br> <span>Gerente General</span></h2>
+            
              <div class="social-icons">
                  <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
                  <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -324,11 +326,69 @@
 
 </div>
 
+<!---------------------- tarjeta de presentacion  ------------>
+
+
+
 
 <link rel="stylesheet" href="css/style_tarje_presentacion.css">
 
 
  
+
+
+    <!-- <button id="play"> Play</button>
+    <button id="mute"> Mute</button> -->
+
+
+
+<script>
+    var musik = new Audio();
+    musik.src = "musica/portada.mp3";
+    musik.loop = true;
+    // musik.play();
+
+
+function mulaiAudio()
+{
+    var play = document.getElementById("play");
+    var mute = document.getElementById("mute");
+
+    play.addEventListener('click',fplay);
+    mute.addEventListener('click',fmute);
+
+    function fplay(){
+        if(musik.paused){
+           musik.play();
+        //    play.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion2.jpg)";
+        } else{
+            musik.pause();
+        //    play.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion3.jpg)"; 
+        }
+    }
+
+function fmute(){
+    if(musik.muted){
+        musik.muted = false;
+        // mute.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion2.jpg)";
+    }else{
+            musik.muted= true;
+            // mute.style.background = "url(/img/tarjeta_presentacion/tarjeta_presentacion3.jpg)"; 
+        }
+}
+
+
+}
+
+window.addEventListener('load',mulaiAudio);
+
+
+
+</script>
+
+
+
+
 
 
 </body>

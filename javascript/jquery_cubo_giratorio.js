@@ -83,3 +83,39 @@ $('.go-back_7').click(function(){
     $('.front_7').addClass('active')
 })
 })
+
+
+$(document).ready(function(){
+    $('.more_8').click(function(){
+    $('.back_8').addClass('active')
+    $('.front_8').removeClass('active')
+})
+$('.go-back_8').click(function(){
+    $('.back_8').removeClass('active')
+    $('.front_8').addClass('active')
+})
+})
+
+
+$(document).ready(function(){
+    $('.more_9').click(function(){
+    $('.back_9').addClass('active')
+    $('.front_9').removeClass('active')
+})
+$('.go-back_9').click(function(){
+    $('.back_9').removeClass('active')
+    $('.front_9').addClass('active')
+})
+})
+
+
+$(document).ready(function(){
+    $('.more_10').click(function(){
+    $('.back_10').addClass('active')
+    $('.front_10').removeClass('active')
+})
+$('.go-back_10').click(function(){
+    $('.back_10').removeClass('active')
+    $('.front_10').addClass('active')
+})
+})
