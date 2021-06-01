@@ -53,6 +53,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card .back.active
@@ -134,6 +135,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_2 .back_2.active
@@ -213,6 +215,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_3 .back_3.active
@@ -293,6 +296,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_4 .back_4.active
@@ -372,6 +376,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_5 .back_5.active
@@ -450,6 +455,7 @@ body
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_6 .back_6.active
@@ -523,12 +529,13 @@ body
     height: 300px;
     /* 283 */
     /* padding: 30px; */
-    padding: 0px;
+    padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_7 .back_7.active
@@ -602,12 +609,13 @@ body
     height: 300px;
     /* 283 */
     /* padding: 30px; */
-    padding: 0px;
+    padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_8 .back_8.active
@@ -684,12 +692,13 @@ body
     height: 300px;
     /* 283 */
     /* padding: 30px; */
-    padding: 0px;
+    padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_9 .back_9.active
@@ -764,12 +773,13 @@ body
     height: 300px;
     /* 283 */
     /* padding: 30px; */
-    padding: 0px;
+    padding: 30px;
     background: #ff2877;
     box-sizing: border-box;
     transform-origin: left;
     transition: .5s;
     transform: translateX(100%) rotateY(90deg);
+    text-align: justify;
 }
 
 .card_10 .back_10.active
